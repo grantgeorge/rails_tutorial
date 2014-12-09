@@ -62,6 +62,8 @@ Rails.application.routes.draw do
       resources :comments
     end
 
+    resources :events
+
     root 'welcome#index'
   end
 
